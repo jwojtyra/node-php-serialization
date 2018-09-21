@@ -1,4 +1,5 @@
 (function(window, exports) {
+    var locutus = require('locutus');
     var Class=require("./Class").Class;
     var util=require("util")
     var bigdecimal=require("bigdecimal");
@@ -199,7 +200,7 @@
         return {result:result,buffer:buf};
     }
     function unserialize(body) {
-        return unserialize_item(body).result.result;
+        return locutus.php.var.unserialize(body);
     }
 
     ///serialize;

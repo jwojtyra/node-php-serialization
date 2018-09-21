@@ -20,8 +20,9 @@
     "laravel"
   ],
   "dependencies": {
-	"bigdecimal":"~0.6.1",
-	"util":"~0.10.3"
+    "bigdecimal": "~0.6.1",
+    "locutus": "^2.0.10",
+    "util": "~0.10.3"
   },
   "devDependencies": {
     "mocha": "~2.3.0",
